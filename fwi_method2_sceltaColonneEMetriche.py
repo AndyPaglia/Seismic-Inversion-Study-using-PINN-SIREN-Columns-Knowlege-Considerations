@@ -1,8 +1,7 @@
 """
 Full Waveform Inversion (FWI) – METHOD 2: Column penalty loss
 =============================================================
-Stessa struttura di fwi_method2.py con l'aggiunta di uno scheduling
-dinamico di alpha durante le iterazioni (curriculum learning / loss annealing).
+Aggiunta di uno scheduling dinamico di alpha durante le iterazioni (curriculum learning / loss annealing).
 
     total_loss = alpha(t) * data_loss + (1 - alpha(t)) * col_loss
 
@@ -15,7 +14,7 @@ Metriche tracciate e salvate:
   - Epoch di convergenza (prima epoch in cui loss < soglia)
   - Tutto esportato anche in metrics.txt
 
-Image and Sound Processing Lab - Politecnico di Milano
+Politecnico di Milano
 """
 
 import argparse
