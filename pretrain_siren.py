@@ -1,10 +1,6 @@
 """
 Pre-train the SIREN model to represent a smooth initial velocity model.
-
-Image and Sound Processing Lab - Politecnico di Milano
-
-Daniele Ugo Leonzio
-Paolo Bestagini
+Politecnico di Milano
 
 IMPROVEMENTS v2:
 - omega_0 lowered to 10 (more conservative, avoids overfitting to high spatial frequencies)
