@@ -1,10 +1,6 @@
 """
 Compute the forward modelling in a 2-D domain using PyTorch.
-
-Image and Sound Processing Lab - Politecnico di Milano
-
-Daniele Ugo Leonzio
-Paolo Bestagini
+Politecnico di Milano
 
 IMPROVEMENTS v2:
 - CFL check is now a hard ValueError (no silent violations)
